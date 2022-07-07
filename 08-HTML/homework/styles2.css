@@ -1,15 +1,15 @@
 body{
     margin: 1px;
-    padding-left:2%;
-    padding-right: 2%;
+    padding-left:1%;
+    padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
     
 }
 #body{
     border: 1px solid black;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%; 
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -55,4 +55,29 @@ h3{
 .title{
     font-weight: 600;
     color:black;
+}
+
+.cien{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.setenta{
+width: 85%;
+justify-content: flex-start;
+border-right: 2px solid  orange;
+padding-right: 2%;
+padding-right: 10%;
+}
+
+.treinta{
+    width:25%;
+    justify-content: flex-end;
+   margin-left: 1%;
+    
+}
+
+.treinta h3{
+    padding-left: 8%;
 }
